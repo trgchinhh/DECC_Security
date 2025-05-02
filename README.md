@@ -34,7 +34,6 @@ Bot telegram có khả năng mã hóa file các loại tệp có chữ, nhất l
 ## Cách mã hóa file: https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_encode_DECC.py
 ## Cách giải mã file: https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_decode_DECC.py
 
-# CHÚC CÁC BẠN THÀNH CÔNG !!!
 
 
 
