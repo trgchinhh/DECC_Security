@@ -4,7 +4,7 @@ from DECC import *
 import os
 from datetime import datetime
 
-API_BOT = "6790339105:AAEKvcd-EmkC3mXI3IDAWVi9uIienb7B-DM"
+API_BOT = "THAY_API_BOT"
 bot = telebot.TeleBot(API_BOT)
 
 tep_nguoi_dung = {}  # Lưu tạm thông tin file theo user
