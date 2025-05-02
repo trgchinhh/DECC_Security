@@ -28,14 +28,26 @@ Bot telegram có khả năng mã hóa file các loại tệp có chữ, nhất l
 
 # Screenshot 
 
-## File gốc :
+## File gốc:
 ![image](https://github.com/user-attachments/assets/6a30d8f3-4ec6-45b1-b7e9-5cf9661de2b7)
 
 https://github.com/trgchinhh/DECC_Security/blob/main/DECC/Code_mau.py
-## File đã mã hóa : https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_ma_hoa.txt
-## File đã giải mã : https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_giai_ma.txt
-## Cách mã hóa file: https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_encode_DECC.py
-## Cách giải mã file: https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_decode_DECC.py
+## File đã mã hóa:
+![image](https://github.com/user-attachments/assets/8371f384-8cb7-4143-8bde-a89828ccec76)
+
+https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_ma_hoa.txt
+## File đã giải mã:
+![image](https://github.com/user-attachments/assets/d003f36e-4628-43cc-b585-5e976d07fdf4)
+
+https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_giai_ma.txt
+## Cách mã hóa file:
+![image](https://github.com/user-attachments/assets/e10e6fff-2e31-4e48-9402-d43950a59d9e)
+
+https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_encode_DECC.py
+## Cách giải mã file:
+![image](https://github.com/user-attachments/assets/565e4d3c-5922-437f-9b91-22fee217585c)
+
+https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Test_decode_DECC.py
 
 
 
