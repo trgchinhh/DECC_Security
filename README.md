@@ -37,7 +37,8 @@ https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Code_mau.py
 
 https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_ma_hoa.txt
 ## File đã giải mã:
-Giải mã chưa chuẩn nên còn sai vài ký tự 
+ +Mã hóa chưa chuẩn nên còn sai vài ký tự 
+
 ![image](https://github.com/user-attachments/assets/d003f36e-4628-43cc-b585-5e976d07fdf4)
 
 https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Data_code_mau_da_giai_ma.txt
