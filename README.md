@@ -1,4 +1,4 @@
-# DECC BOT TELEGRAM (DECODE ENCODE CHINHCYPHER)
+# DECC BOT TELEGRAM (DECODE ENCODE CHINHCIPHER)
 
 ## Giới thiệu
 Bot telegram có khả năng mã hóa file các loại tệp có chữ, nhất là file code như file.py (python), file.cpp (c++), file.js (javascript) ,... Nó sẽ mã hóa dữ liệu thành dạng khó đọc và không thể hiểu (không hỗ trợ chạy file khi đã mã hóa như 1 vài loại mã hóa khác như base64, ...)
