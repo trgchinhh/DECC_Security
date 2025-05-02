@@ -7,7 +7,7 @@ from datetime import datetime
 API_BOT = "THAY_API_BOT"
 bot = telebot.TeleBot(API_BOT)
 
-tep_nguoi_dung = {}  # Lưu tạm thông tin file theo user
+tep_nguoi_dung = {}  
 
 @bot.message_handler(commands=['start'])
 def start(message):
