@@ -31,7 +31,7 @@ Bot telegram có khả năng mã hóa file các loại tệp có chữ, nhất l
 ## File gốc:
 ![image](https://github.com/user-attachments/assets/6a30d8f3-4ec6-45b1-b7e9-5cf9661de2b7)
 
-https://github.com/trgchinhh/DECC_Security/blob/main/DECC/Code_mau.py
+https://github.com/trgchinhh/DECC_Security/blob/main/TEST/Code_mau.py
 ## File đã mã hóa:
 ![image](https://github.com/user-attachments/assets/8371f384-8cb7-4143-8bde-a89828ccec76)
 
