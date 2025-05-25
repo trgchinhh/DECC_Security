@@ -1,13 +1,36 @@
 import telebot
 from telebot import types
 from DECC import *
-import os
+import os, sys
 from datetime import datetime
+from lequangminh import * 
 
-API_BOT = "THAY_API_BOT"
+API_BOT = "THAY API BOT"
 bot = telebot.TeleBot(API_BOT)
 
-tep_nguoi_dung = {}  
+def banner():
+    os.system("cls" if os.name == "nt" else "clear") # xoá tất cả những thứ còn lại trên terminal
+    title = "\nHome: https://github.com/trgchinhh\n" 
+    banner = """\n
+██████╗░███████╗░█████╗░░█████╗░██████╗░███████╗   ███████╗███╗░░██╗░█████╗░░█████╗░██████╗░███████╗
+██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝   ██╔════╝████╗░██║██╔══██╗██╔══██╗██╔══██╗██╔════╝
+██║░░██║█████╗░░██║░░╚═╝██║░░██║██║░░██║█████╗░░   █████╗░░██╔██╗██║██║░░╚═╝██║░░██║██║░░██║█████╗░░
+██║░░██║██╔══╝░░██║░░██╗██║░░██║██║░░██║██╔══╝░░   ██╔══╝░░██║╚████║██║░░██╗██║░░██║██║░░██║██╔══╝░░
+██████╔╝███████╗╚█████╔╝╚█████╔╝██████╔╝███████╗   ███████╗██║░╚███║╚█████╔╝╚█████╔╝██████╔╝███████╗
+╚═════╝░╚══════╝░╚════╝░░╚════╝░╚═════╝░╚══════╝   ╚══════╝╚═╝░░╚══╝░╚════╝░░╚════╝░╚═════╝░╚══════╝
+
+        ░█████╗░██╗░░██╗██╗███╗░░██╗██╗░░██╗░█████╗░██╗██████╗░██╗░░██╗███████╗██████╗░
+        ██╔══██╗██║░░██║██║████╗░██║██║░░██║██╔══██╗██║██╔══██╗██║░░██║██╔════╝██╔══██╗
+        ██║░░╚═╝███████║██║██╔██╗██║███████║██║░░╚═╝██║██████╔╝███████║█████╗░░██████╔╝
+        ██║░░██╗██╔══██║██║██║╚████║██╔══██║██║░░██╗██║██╔═══╝░██╔══██║██╔══╝░░██╔══██╗
+        ╚█████╔╝██║░░██║██║██║░╚███║██║░░██║╚█████╔╝██║██║░░░░░██║░░██║███████╗██║░░██║
+        ░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░╚═╝░╚════╝░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
+\n"""
+    ban = Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner.center(300)))
+    print(ban)
+
+banner()    
+tep_nguoi_dung = {}  # Lưu tạm thông tin file theo user
 
 @bot.message_handler(commands=['start'])
 def start(message):
